@@ -1,8 +1,8 @@
 import { BrowserRouter, Route} from 'react-router-dom';
-
 import { FormStep1 } from './pages/FormStep1';
 import { FormStep2 } from './pages/FormStep2';
 import { FormStep3 } from './pages/FormStep3';
+import { FormStepFinal } from './pages/FormStepFinal';
 
 export const Router = () => {
   return (
@@ -10,6 +10,7 @@ export const Router = () => {
       <Route path="/" exact component={FormStep1}/>
       <Route path="/step2" component={FormStep2}/>
       <Route path="/step3" component={FormStep3}/>
+      <Route path="/final" component={FormStepFinal}/>
     </BrowserRouter>
   )
 }
