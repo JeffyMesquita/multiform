@@ -79,5 +79,6 @@ export const ContainerNivel = styled.div`
 
   h1 {
     margin-top: 2px;
+    padding: 0;
   }
 `;
